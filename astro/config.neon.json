@@ -1,0 +1,6 @@
+{
+    "copy_files": {
+        ".env.example": [".env"]
+    },
+    "templated_files": [".env", "README.md"]
+}
