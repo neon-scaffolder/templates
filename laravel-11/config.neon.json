@@ -1,6 +1,7 @@
 {
     "copy_files": {
-        ".env.example": [".env"]
+        ".env.template": [".env"]
     },
-    "templated_files": [".env", "README.md"]
+    "templated_files": [".env", "README.md"],
+    "delete_files": [".env.template"]
 }
